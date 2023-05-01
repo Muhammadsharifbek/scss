@@ -1,0 +1,12 @@
+$color-red:rgb(10, 7, 7);
+
+h1{
+  @include header-top;
+  @include border-box;
+  @include istagan-narsa(h1);
+// color: $color-red;
+}
+
+p{
+  @include container;
+}
