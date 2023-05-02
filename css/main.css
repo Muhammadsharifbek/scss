@@ -1,21 +1,42 @@
-h1 {
+body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: crimson;
-  border: 5px solid black;
-  font-size: 32px;
-  font-weight: 800;
-  color: aqua;
-  font-weight: 400;
-  font-size: 21px;
+  height: 100%;
+  padding: 10;
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  background-color: #fff;
+  flex-direction: column;
 }
 
-p {
-  width: 100%;
-  max-width: 800px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+.site-header {
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header .header-top {
+  padding: 20px 25px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #36393F;
+}
+.site-header .container-header-top-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.site-header .header-card {
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header .header-li {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header .header-li::after {
+  content: "";
+  margin-right: 20px;
 }/*# sourceMappingURL=main.css.map */

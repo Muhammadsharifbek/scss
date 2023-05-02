@@ -1,12 +1,43 @@
-$color-red:rgb(10, 7, 7);
-
-h1{
-  @include header-top;
-  @include border-box;
-  @include istagan-narsa(h1);
-// color: $color-red;
+body{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 10;
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  background-color: #fff;
+  flex-direction: column;
 }
 
-p{
-  @include container;
+$color-red:rgb(10, 7, 7);
+
+
+.site-header{
+  @include header;
+
+  .header-top{
+    @include header-top;
+  }
+
+  .container-header-top-inner{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .header-card{
+    @include header;
+  }
+
+  .header-li{
+   list-style: none;
+   display: inline-flex;
+   justify-content: space-between;
+   align-items: center;
+    &::after{
+      content:"";
+      margin-right:20px;
+    }
+  }
 }

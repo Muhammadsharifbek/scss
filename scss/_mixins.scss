@@ -1,22 +1,24 @@
+
+
 @mixin header-top{
-  display: flex;
-  justify-content: center;
+  padding: 20px 25px;
+  // display: flex;
+  justify-content: space-around;
   align-items: center;
-  color: crimson;
+  margin-bottom: 20px;
+  background-color: #36393F;
 }
 
 @mixin container{
   width: 100%;
-  max-width: 800px;
+  max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
-@mixin border-box{
-border: 5px solid black;
-}
+
 
 @mixin istagan-narsa($text){
 font-size: 32px;
@@ -35,5 +37,12 @@ font-weight: 800;
 }
 
 
+
+}
+
+@mixin header{
+  // display: flex;
+  justify-content: space-between;
+  align-items:center;
 
 }
