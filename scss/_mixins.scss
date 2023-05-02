@@ -2,7 +2,7 @@
 
 @mixin header-top{
   padding: 20px 25px;
-  // display: flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 20px;
@@ -41,7 +41,7 @@ font-weight: 800;
 }
 
 @mixin header{
-  // display: flex;
+  display: flex;
   justify-content: space-between;
   align-items:center;
 
