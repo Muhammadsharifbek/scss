@@ -5,33 +5,569 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
+    <!-- HEADER -->
+
     <header class="site-header">
-      <div class="header-top">
-        <div class="container container-header-top-inner">
-          <div header-card>
-            <div class="header-img">
-              <img src="./img/Logo.svg" alt="logo" width="200" height="200" />
+      <div class="container site-header-container">
+        <a class="logo" href="/"
+          ><img
+            class="logo-img"
+            src="./img/Logo.svg"
+            alt="logo"
+            width="120"
+            height="42"
+        /></a>
+        <a class="phone-link phone-link2" href="tel:+74993904286"
+          >+7 (499) 390-42-86</a
+        >
+        <ul class="site-header-socials">
+          <li class="site-header-item">
+            <a class="site-header-social-link" href=""
+              ><img src="img/Icon_Telegramm.svg" alt="telegram"
+            /></a>
+          </li>
+          <li class="site-header-item">
+            <a class="site-header-social-link" href=""
+              ><img src="img/Icon_Watsapp.svg" alt="whatsapp"
+            /></a>
+          </li>
+        </ul>
+        <div class="site-header-hasked">
+          <img src="img/Icon_Cart.svg" alt="savatcha" />
+        </div>
+      </div>
+    </header>
+
+    <!-- MENU -->
+
+    <div class="menu">
+      <div class="container container-menu">
+        <nav>
+          <button class="menu-button" type="menu">КАТАЛОГ</button>
+        </nav>
+        <div class="card-menu">
+          <a class="card-link" href="#">О НАС</a>
+          <a class="card-link" href="#">ГДЕ КУПИТЬ</a>
+          <a class="card-link" href="#">КОНТАКТЫ</a>
+        </div>
+
+        <input class="menu-search" type="search" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="site-body">
+        <div class="body-card">
+          <h2 class="body-item">FITNESS FOOD FACTORY</h2>
+          <p class="body-text">
+            Это молодая команда энтузиастов фитнеса. Мы разрабатываем и
+            производим качественное и вкусное спортивное питание без сахара,
+            лишних калорий и углеводов.
+          </p>
+        </div>
+        <img
+          src="img/image 5.png  "
+          alt="energetik ichimlik"
+          width="586"
+          height="512"
+        />
+      </div>
+      <h2>Хиты продаж</h2>
+    </div>
+
+    <!-- BODY 1 -->
+
+    <div class="container container-body">
+      <div class="body1">
+        <ul class="body1-card">
+          <img
+            class="body1-img"
+            src="img/Peanuts.png"
+            alt="protein"
+            width="110"
+            height="175"
+          />
+          <li class="body1-item">PEANUT BUTTER</li>
+          <li class="body1-text">
+            Натуральная арахисовая паста <br />
+            (Классическая)
+          </li>
+          <img class="img-rating" src="img/Rating.svg" alt="baholash" />
+          <li class="money">
+            <p class="body-card-text">1200 ₽</p>
+          </li>
+          <nav class="body-nav">
+            <button class="button-body" type="button">В корзину</button>
+          </nav>
+        </ul>
+      </div>
+
+      <div class="body1-2">
+        <ul class="body-2">
+          <img
+            class="body1-img"
+            src="img/pechenia.png"
+            alt="protein"
+            width="110"
+            height="175"
+          />
+          <li class="body1-item">
+            Печенье PRIMEBAR MIX <br />
+            (10 шт*35 гр)
+          </li>
+          <li class="body1-text1">
+            Низкокалорийное печень <br />
+            Bombbar)
+          </li>
+          <img class="img-rating" src="img/Rating 4.svg" alt="baholash" />
+          <li class="money">
+            <p class="body-p">890 ₽</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="body1-2">
+        <ul class="body-2">
+          <img
+            class="body1-img"
+            src="img/Peanuts.png"
+            alt="protein"
+            width="110"
+            height="175"
+          />
+          <li class="body1-item">PEANUT BUTTER</li>
+          <li class="body1-text">
+            Натуральная арахисовая паста <br />
+            (Классическая)
+          </li>
+          <img class="img-rating" src="img/Rating.svg" alt="baholash" />
+          <li class="money money-line-through">
+            <p class="body-p1">1150 ₽</p>
+            <p class="body-p">900 ₽</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="body1-2">
+        <ul class="body-2">
+          <img
+            class="body1-img"
+            src="img/black-pechenia.png"
+            alt="protein"
+            width="110"
+            height="175"
+          />
+          <li class="body1-item">PEANUT BUTTER</li>
+          <li class="body1-text">
+            Натуральная арахисовая паста <br />
+            (Классическая)
+          </li>
+          <img class="img-rating" src="img/Rating 4.svg" alt="baholash" />
+          <li class="money">1200 ₽</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- BODY-2 -->
+    <h2 class="container">Новинки</h2>
+    <div class="container container-body">
+      <div class="body1-2">
+        <ul class="body-2">
+          <img
+            class="body1-img"
+            src="img/Energy.png"
+            alt="protein"
+            width="110"
+            height="175"
+          />
+          <li class="body1-item">WAKE UP</li>
+          <li class="body1-text">
+            Энергетик без сахара со вкусом <br />
+            малины (Raspberry mint)
+          </li>
+          <img class="img-rating" src="img/Rating 4.svg" alt="baholash" />
+          <li class="money">950 ₽</li>
+        </ul>
+      </div>
+
+      <div class="body1-2">
+        <ul class="body-2">
+          <img
+            class="body1-img"
+            src="img/Peanuts3.png"
+            alt="protein"
+            width="110"
+            height="175"
+          />
+          <li class="body1-item">WAKE UP</li>
+          <li class="body1-text">
+            Энергетик без сахара и ароматный сочный арбуз (Шоколадная).
+          </li>
+          <img class="img-rating" src="img/Rating 4.svg" alt="baholash" />
+          <li class="money">1200 ₽</li>
+        </ul>
+      </div>
+
+      <div class="body1-2">
+        <ul class="body-2">
+          <img
+            class="body1-img"
+            src="img/Protein.png"
+            alt="protein"
+            width="110"
+            height="175"
+          />
+          <li class="body1-item">WAKE UP</li>
+          <li class="body1-text">
+            Натуральная арахисовая паста <br />
+            (Классическая)
+          </li>
+          <img class="img-rating" src="img/Rating 4.svg" alt="baholash" />
+          <li class="money">1230 ₽</li>
+        </ul>
+      </div>
+
+      <div class="body1-2">
+        <ul class="body-2">
+          <img
+            class="body1-img"
+            src="img/peanuts pink.png"
+            alt="protein"
+            width="110"
+            height="175"
+          />
+          <li class="body1-item">WAKE UP</li>
+          <li class="body1-text">
+            Натуральная арахисовая паста <br />
+            (Классическая)
+          </li>
+          <img class="img-rating" src="img/Rating 4.svg" alt="baholash" />
+          <li class="money">1980 ₽</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- BODY-2 -->
+
+    <h2 class="container">Новинки</h2>
+    <div class="container container-body">
+      <div class="body1-2">
+        <ul class="body-2">
+          <img
+            class="body1-img"
+            src="img/Energy.png"
+            alt="protein"
+            width="110"
+            height="175"
+          />
+          <li class="body1-item">WAKE UP</li>
+          <li class="body1-text">
+            Энергетик без сахара со вкусом <br />
+            малины (Raspberry mint)
+          </li>
+          <img class="img-rating" src="img/Rating 4.svg" alt="baholash" />
+          <li class="money money-line-through">
+            <p class="body-p1">980 ₽</p>
+            <p class="body-p">890 ₽</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="body1-2">
+        <ul class="body-2">
+          <img
+            class="body1-img"
+            src="img/Peanuts3.png"
+            alt="protein"
+            width="110"
+            height="175"
+          />
+          <li class="body1-item">WAKE UP</li>
+          <li class="body1-text">
+            Энергетик без сахара и ароматный сочный арбуз (Шоколадная).
+          </li>
+          <img class="img-rating" src="img/Rating 4.svg" alt="baholash" />
+          <li class="money money-line-through">
+            <p class="body-p1">1240 ₽</p>
+            <p class="body-p">1150 ₽</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="body1-2">
+        <ul class="body-2">
+          <img
+            class="body1-img"
+            src="img/energy yellow.png"
+            alt="protein"
+            width="110"
+            height="175"
+          />
+          <li class="body1-item">WAKE UP</li>
+          <li class="body1-text">
+            Натуральная арахисовая паста <br />
+            (Классическая)
+          </li>
+          <img class="img-rating" src="img/Rating 4.svg" alt="baholash" />
+          <li class="money money-line-through">
+            <p class="body-p1">1000 ₽</p>
+            <p class="body-p">920 ₽</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="body1-2">
+        <ul class="body-2">
+          <img
+            class="body1-img"
+            src="img/protein blue 3.png"
+            alt="protein"
+            width="110"
+            height="175"
+          />
+          <li class="body1-item">WAKE UP</li>
+          <li class="body1-text">
+            Натуральная арахисовая паста <br />
+            (Классическая)
+          </li>
+          <img class="img-rating" src="img/Rating.svg" alt="baholash" />
+          <li class="money money-line-through">
+            <p class="body-p1">1190 ₽</p>
+            <p class="body-p">1500 ₽</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <img
+      class="container navigation-img"
+      src="img/Navigation.svg"
+      alt="nuqtalar"
+      width="96"
+      height="16"
+    />
+
+    <!-- HERO -->
+
+    <div class="container">
+      <div class="hero">
+        <h2 class="hero-title">ОТЗЫВЫ НАШИХ КЛИЕНТОВ</h2>
+        <div class="container-hero">
+          <div class="hero-comment">
+            <ul class="hero-card">
+              <li>
+                <img
+                  src="img/4d.png"
+                  alt="fitnes treiner"
+                  width="90"
+                  height="90"
+                />
+              </li>
+              <li class="hero-inner">
+                <h3 class="hero-card-title">Дмитрий</h3>
+                <p class="hero-text">Фитнес тренер</p>
+              </li>
+            </ul>
+            <p class="hero-comment-text">
+              Мои клиенты это отражение моего профессионализма. Скажем если
+              человек занимается пол года и не получает желаемого результата, то
+              это ставит под сомнение мою квалификацию. Питание это важнейший
+              момент, на который стоит обращать внимание даже больше чем на сам
+              тренировочный процесс, поэтому с первого же дня я рекомендую своим
+              клиентам продукцию от Fitnessfoodfactory. Превосходные результаты
+              моих клиентов это в том числе и заслуга друзей из
+              Fitnessfoodfactory.
+            </p>
+          </div>
+          <!-- HERO-2 -->
+          <div class="hero-comment">
+            <ul class="hero-card">
+              <li>
+                <img
+                  src="img/Mask Group.png"
+                  alt="fitnes treiner"
+                  width="90"
+                  height="90"
+                />
+              </li>
+              <li class="hero-inner">
+                <h3 class="hero-card-title">Светлана</h3>
+                <p class="hero-text">Фитнес блогер</p>
+              </li>
+            </ul>
+            <p class="hero-comment-text">
+              Мне необходимо выглядеть превосходно каждый день, так как я
+              являюсь в некотором роде образцом подражания для многих своих
+              подписчиков. Однако фитнес блогинг это не просто красивые видео из
+              зала - это многочасовые съёмки отнимающий много сил. Правильно
+              питаться и оставаться в тонусе мне помогает продукция от
+              Fitnessfoodfactory.
+            </p>
+          </div>
+          <!-- HERO-3 -->
+          <div class="hero-comment">
+            <ul class="hero-card">
+              <li>
+                <img
+                  src="img/Mask Group2.png"
+                  alt="fitnes treiner"
+                  width="90"
+                  height="90"
+                />
+              </li>
+              <li class="hero-inner">
+                <h3 class="hero-card-title">Вероника</h3>
+                <p class="hero-text">
+                  Победительница конкурса <br />
+                  Фитнес-Бикини 2017
+                </p>
+              </li>
+            </ul>
+            <p class="hero-comment-text">
+              Мне необходимо выглядеть превосходно каждый день, так как я
+              являюсь в некотором роде образцом подражания для многих своих
+              подписчиков. Однако фитнес блогинг это не просто красивые видео из
+              зала - это многочасовые съёмки отнимающий много сил. Правильно
+              питаться и оставаться в тонусе мне помогает продукция от
+              Fitnessfoodfactory.
+            </p>
+          </div>
+        </div>
+        <img
+          class="container navigation-img"
+          src="img/Navigation.svg"
+          alt="nuqtalar"
+          width="96"
+          height="16"
+        />
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+      <div class="site-footer-container container">
+        <div class="footer-div">
+          <ul class="footer-ul">
+            <li class="footer-li">
+              <h6 class="footer-title">КАТАЛОГ ПРОДУКЦИИ</h6>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#">Коллаген</a>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#">Изотоники</a>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#">Креатин</a>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#">Протеин</a>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#">Протеиновые батончики</a>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#">Протеиновые джемы</a>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#">Протеиновое печенье </a>
+            </li>
+          </ul>
+
+          <ul class="footer-ul footer-ul2">
+            <li class="footer-li">
+              <h6 class="footer-title">СЕРВИС</h6>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#">О компании</a>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#">FAQ</a>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#">Контакт</a>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#">Новости</a>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#">Акции и специальные предложния</a>
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#"
+                >Список магазинов, филиалов, дилеров</a
+              >
+            </li>
+            <li class="footer-li2">
+              <a class="footer-link" href="#"
+                >Документы и раскрытие информации</a
+              >
+            </li>
+          </ul>
+
+          <div class="site-footer-div">
+            <div class="card-socials">
+              <ul class="site-header-socials">
+                <li class="site-header-item">
+                  <a class="phone-link" href="tel:+74993904286"
+                    >+7 (499) 390-42-86</a
+                  >
+                </li>
+                <li class="site-header-item">
+                  <a class="site-header-social-link" href=""
+                    ><img src="img/Icon_Telegramm.svg" alt="telegram"
+                  /></a>
+                </li>
+                <li class="site-header-item">
+                  <a class="site-header-social-link" href=""
+                    ><img src="img/Icon_Watsapp.svg" alt="whatsapp"
+                  /></a>
+                </li>
+              </ul>
             </div>
-            <div>
-              <ul>
-                <li class="header-li">+7 (499) 390-42-86</li>
-                <li class="header-li">
-                  <img src="img/Icon_Telegramm.svg" alt="telegram" />
+
+            <div class="card-socials2">
+              <ul class="site-header-socials">
+                <li class="site-header-item">
+                  <a class="site-header-social-link" href="#"
+                    ><img src="img/Facebook.svg" alt="Facebook"
+                  /></a>
                 </li>
-                <li class="header-li">
-                  <img src="img/Icon_Watsapp.svg" alt="whatsapp" />
+                <li class="site-header-item">
+                  <a class="site-header-social-link" href="#"
+                    ><img src="img/Instagram.svg" alt="Instagram"
+                  /></a>
                 </li>
-                <li class="header-li">
-                  <img src="img/Icon_Cart.svg" alt="savatcha" />
+                <li class="site-header-item">
+                  <a class="site-header-social-link" href="#"
+                    ><img src="img/VK.svg" alt="Vkontakte"
+                  /></a>
+                </li>
+                <li class="site-header-item">
+                  <a class="site-header-social-link" href="#"
+                    ><img
+                      src="img/Youtube.svg"
+                      alt="You Tube"
+                      width="42"
+                      height="42"
+                  /></a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </footer>
   </body>
 </html>

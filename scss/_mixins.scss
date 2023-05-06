@@ -1,17 +1,14 @@
 
 
-@mixin header-top{
-  padding: 20px 25px;
+@mixin for-flex{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 20px;
-  background-color: #36393F;
 }
 
 @mixin container{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1220px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -32,12 +29,6 @@ font-weight: 800;
 }@else if $text==p{
   font-size: 50px;
 }
-@else {
-
-}
-
-
-
 }
 
 @mixin header{
