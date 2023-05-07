@@ -121,16 +121,18 @@ body {
 }
 
 .site-body {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-image: url("img/image 7.png/1921/200");
+  background-image: url("../img/BG.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   width: 100%;
   margin-bottom: 70px;
+}
+.site-body .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .body-card {

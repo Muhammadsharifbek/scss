@@ -1,16 +1,15 @@
 .site-body{
-display: flex;
-align-items:center;
-justify-content: space-between;
-// margin: 0;
-// padding: 0;
-background-image: url("img/image 7.png/1921/200");
+background-image: url("../img/BG.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
 background-position: center;
+ .container{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
 width: 100%;
-// background-color:black;
 margin-bottom: 70px;
 }
 
